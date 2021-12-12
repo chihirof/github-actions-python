@@ -9,3 +9,5 @@ jobs:
       - run: ls -l
       - run: which python3 && python3 -V
       - run: which python && python -V
+      - run: which pip && pip -V
+      - run: which pip3 && pip3 -V
