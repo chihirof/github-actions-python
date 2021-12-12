@@ -1,0 +1,12 @@
+name: Test Python Version
+on: [push]
+jobs:
+  run-test-python:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print python version(ubuntu default)
+        run: |
+          ls -l /usr/bin | grep python
+          python -V
+          python3 -V
+      
