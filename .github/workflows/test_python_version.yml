@@ -10,3 +10,12 @@ jobs:
           python -V
           python3 -V
       
+      - uses: actions/setup-python@v2
+        with: python-version: '3.9.x'
+      
+      - name: print python version(use actions/setup-python@v2)
+        run: |
+          python -V
+          python3 -V
+
+      
